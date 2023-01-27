@@ -1,7 +1,16 @@
-import { Typography } from "@mui/material"
+import { Typography } from '@mui/material';
+import { JournalLayout } from '../layout';
+
+const drawerWidth = 240;
 
 export const JournalPage = () => {
   return (
-    <Typography variant="h1">JournalApp</Typography>
+
+    <JournalLayout>
+
+      <Typography >Officia veniam adipisicing commodo reprehenderit nulla et officia amet et voluptate ex.</Typography>
+
+    </JournalLayout>
+
   )
 }
